@@ -33,7 +33,7 @@ def generate_launch_description():
     params_declare = DeclareLaunchArgument(
         'params_file',
         default_value=os.path.join(
-        share_dir, 'params', 'ydlidar-tx8.yaml'),
+        share_dir, 'params', 'ydlidar-x4.yaml'),
         description='FPath to the ROS2 parameters file to use.'
     )
 
